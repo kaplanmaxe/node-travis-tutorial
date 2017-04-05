@@ -1,0 +1,28 @@
+{
+  "name": "node-travis-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial on how to get up and running with travis-ci and node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaplanmaxe/node-travis-tutorial.git"
+  },
+  "keywords": [
+    "node",
+    "travis",
+    "tutorial"
+  ],
+  "author": "Max Kaplan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaplanmaxe/node-travis-tutorial/issues"
+  },
+  "homepage": "https://github.com/kaplanmaxe/node-travis-tutorial#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
